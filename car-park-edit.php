@@ -17,3 +17,19 @@ License: GNU General Public License v2 or later
       $text = str_ireplace('Space', 'Booking',$text);
       return $text;
   }
+
+
+//   change_shipping_text plugin parent plugin
+// 				{
+// 					$html.=
+// 					'
+// 						<img src="'.esc_attr($locationMeta['payment_'.$value[1].'_logo_src']).'" alt="">
+// 					';
+//                     $html.=
+// 					'
+// 				        <div class="cpbs-header cpbs-header-style-4">'.esc_html('Credit Card').'</div>
+// 					';
+// 				}
+
+// Set the option with text "Cruise Parking" as the default option
+//   $self.e('select').val($self.e('select option:contains("Cruise Parking")').val()).selectmenu('refresh');
